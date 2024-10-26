@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+header {
+    padding: 25px 0;
+    margin: 0 auto;
+    background-color: #0B162C;
+    color: #5FC2BA;
+    position: fixed;
+    width: 100%;
+}
+ 
+ul {
+    text-align: center;
+}
+
+ul li {
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+ul li:hover{
+    color: orange;
+}
+
