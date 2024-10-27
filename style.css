@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: black;
+    font-family:'Merryweather',sans-serif;
 }
 
 header{
@@ -8,7 +9,7 @@ header{
     margin: 0 auto;
     width: 100%;
     background-color: #0B162C;
-    color: #5FC2BA;
+    color: orange;
     position: fixed;
     top: 0;
 }
@@ -28,7 +29,7 @@ ul li{
 
 ul li:hover{
   
-    color: orange;
+    color: rgb(255, 212, 132);
 }
 
 a{
@@ -38,15 +39,24 @@ a{
 
 main{
     max-width: 1000px;
-    margin: 50px auto;
-    background-color: #1C2942   ;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: #040523 ;
     text-align: center;
-    color: #5FC2BA;
+    color:#c2950e;
+  
+    
+   
 }
 h1{
     margin-top: 0;
     padding-top:40px ;
    
+}
+
+h2{
+    padding: 30px 0;
+    text-decoration: underline;
 }
 table{
     text-align: center;
@@ -57,14 +67,23 @@ table{
 }
 
 td,th{
-    border: solid 1px white;
+    border: solid 3px #7277ce;
     border-left: none;
    
 }
 
 th{
     border-top: none;
-    text-align: center!important;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #F2CB05;
+
+    
+}
+
+.border_right{
+    border-right:none ;
 }
 
 .tab_description{
@@ -73,10 +92,12 @@ th{
     text-align: left;
     padding: 5px 0 5px 5px;
     font-size: 18px;
+    color: white;
 }
 
 .mdn{
     font-size: 25px;
+    color: #F2B705;
 }
 
 .mdn:hover{
@@ -84,3 +105,10 @@ th{
     color: black;
 }
 
+footer{
+    background-color: #5FC2BA;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 50px;
+
+}

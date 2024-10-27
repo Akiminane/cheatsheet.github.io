@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Cheat Sheet</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">HTML</a></li>
+                <li><a href="#html">HTML</a></li>
                 <li><a href="#css">CSS</a></li>
                 <li><a href="#propos">A PROPOS</a></li>
             </ul>
@@ -25,7 +28,7 @@
                 <thead>
                     <tr>
                         <th>Tag</th>
-                        <th class="tab_description">Description</th>
+                        <th class="border_right">Description</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -106,16 +109,82 @@
                     </tr>
                     <tr>
                         <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/footer" target="_blank">&lt;footer&gt;</a></td>
-                        <td class="tab_description">eprésente le pied de page de la section ou de la racine de sectionnement la plus proche.</td>
+                        <td class="tab_description">Représente le pied de page de la section ou de la racine de sectionnement la plus proche.</td>
                     </tr>
                 </tbody>
             </table>
-            <h2>CSS</h2>
+            <h2  id="#css">CSS</h2>
             <table>
                 <thead>
                     <th>Fonction</th>
-                    <th class="tab_description">Description</th>
+                    <th class="border_right">Description</th>
                 </thead>
+                <tbody>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/margin" target="_blank">margin</a></td>
+                        <td class="tab_description">Définit la taille des marges sur les quatre côtés de l'élément.</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/padding" target="_blank">padding</a></td>
+                        <td class="tab_description">Permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/background-color" target="_blank">background-color</a></td>
+                        <td class="tab_description">Permet de définir la couleur utilisée pour l'arrière-plan d'un élément</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/color" target="_blank">color</a></td>
+                        <td class="tab_description">Définit la couleur de premier plan d'un élément texte et de ses éventuelles décorations.</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/@font-face" target="_blank">@font-face</a></td>
+                        <td class="tab_description">Permet de définir une police d'écriture particulière à utiliser pour afficher le texte de pages
+                             web.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/font-family" target="_blank">font-family</a></td>
+                        <td class="tab_description">Permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte
+                             de l'élément ciblé.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/font-size" target="_blank">font-size</a></td>
+                        <td class="tab_description">Définit la taille de fonte utilisée pour le texte.</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/font-style" target="_blank">font-style</a></td>
+                        <td class="tab_description">Permet de sélectionner une fonte italique (italic) ou oblique (oblique)</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/width" target="_blank">width</a></td>
+                        <td class="tab_description">Permet de définir la largeur de la boîte du contenu d'un élément.</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/height" target="_blank">height</a></td>
+                        <td class="tab_description">Définit la hauteur de la boîte de contenu d'un élément.</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/position" target="_blank">position</a></td>
+                        <td class="tab_description">Définit la façon dont un élément est positionné dans un document.</td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/display" target="_blank">display</a></td>
+                        <td class="tab_description">définit le type d'affichage utilisée pour le rendu d'un élément (de bloc ou en ligne)
+                             et la disposition utilisée pour ses éléments fils : grille ou boîtes flexibles.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/border" target="_blank">border</a></td>
+                        <td class="tab_description"> permet de définir les propriétés liées à la bordure. border peut être utilisée pour 
+                            définir les valeurs de border-width, border-style et border-color.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="mdn"><a href="https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration">text-dedcoration</a></td>
+                        <td class="tab_description">Décore le texte en ajoutant une ligne pouvant être positionnée sous, sur ou à travers le texte.</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </main>
