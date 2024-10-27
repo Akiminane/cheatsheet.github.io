@@ -9,6 +9,8 @@ header{
     width: 100%;
     background-color: #0B162C;
     color: #5FC2BA;
+    position: fixed;
+    top: 0;
 }
 
 ul{
@@ -36,7 +38,7 @@ a{
 
 main{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: #1C2942   ;
     text-align: center;
     color: #5FC2BA;
@@ -48,12 +50,37 @@ h1{
 }
 table{
     text-align: center;
-    border: solid 1px white;
     border-collapse: collapse;
     width: 90%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
-tr,td,th{
+td,th{
     border: solid 1px white;
+    border-left: none;
+   
 }
+
+th{
+    border-top: none;
+    text-align: center!important;
+}
+
+.tab_description{
+    border-right: none;
+    width: 80%;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+    font-size: 18px;
+}
+
+.mdn{
+    font-size: 25px;
+}
+
+.mdn:hover{
+    background-color: white;
+    color: black;
+}
+
